@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 300px;
+    height: 400px;
+    box-shadow: 2px 2px 2px 1px gray;
+}
+
+.box h2{
+    color: gray;
+}
+
+.box:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.top-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #000;
+    border-bottom: 2px solid red;
+    height: 130px;
+}
+.bottom-box{
+    width: inherit;
+    height: 270px;
+}
+.tittle-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:5px ;
+}
+.header{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.header p{
+    color: #fff;
+}
+
+.tittle-box a{
+    text-decoration: none;
+}
+
+.tittle-box a:visited{
+    color: #000;
+}
+
+.information{
+    text-align: center;
+    height: 65px;
+}
+
+.information p{
+    color: gray;
+}
+
+.information p:nth-child(1){
+    margin-right: 35px;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 130px;
+}
+
+.btn-group button{
+    width: 270px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 0px;
+    cursor: pointer;
+}
+
+.btn-group button:hover{
+    background-color: rgb(174, 173, 173);
+    transition: 0.4s ease-in-out;
+}
